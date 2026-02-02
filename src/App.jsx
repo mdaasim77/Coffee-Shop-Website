@@ -3,7 +3,7 @@ import Hero from './Components/Hero'
 
 const App = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Hero />
     </div>
   )
