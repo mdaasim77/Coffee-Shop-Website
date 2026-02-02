@@ -1,14 +1,12 @@
-import { motion } from "motion/react";
+import React from 'react'
+import Hero from './Components/Hero'
 
-export default function App() {
+const App = () => {
   return (
-    <motion.h1
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-      className="text-4xl font-bold text-red-500"
-    >
-      Framer Motion works
-    </motion.h1>
-  );
+    <div>
+      <Hero />
+    </div>
+  )
 }
+
+export default App
