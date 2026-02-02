@@ -1,13 +1,14 @@
-import React from 'react'
+import { motion } from "motion/react";
 
-const App = () => {
+export default function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline bg-black text-red-500">
-        Hello, Tailwind CSS with Vite and React!
-      </h1>
-    </div>
-  )
+    <motion.h1
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="text-4xl font-bold text-red-500"
+    >
+      Framer Motion works
+    </motion.h1>
+  );
 }
-
-export default App
