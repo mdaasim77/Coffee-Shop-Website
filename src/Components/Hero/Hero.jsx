@@ -1,13 +1,12 @@
 import React from "react";
+import Navbar from "../Navbar/Navbar";
 
 const Hero = () => (
   <main id="bgimage">
     <section className="min-h-[750] w-full ">
       <div className="container">
         {/* navbar section */}
-        <nav>
-            
-        </nav>
+        <Navbar />
         {/* hero section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[850] w-screen">
           {/* text section */}
@@ -58,8 +57,8 @@ const Hero = () => (
                   <h1 className="text-2xl">Blvck Tumbler</h1>
                   <p className="text-sm opacity-55 leading-loose">
                     Repudiandae aliquid excepturi eaque voluptas labore quam
-                    delecnatus quae itaque! Necessitatibus dolore
-                    quae debitis dolor. Beatae, maxime ipsum?
+                    delecnatus quae itaque! Necessitatibus dolore quae debitis
+                    dolor. Beatae, maxime ipsum?
                   </p>
                 </div>
                 <div className="absolute top-0 -right-5 h-36 w-64 bg-[#1a1f26]/60"></div>
