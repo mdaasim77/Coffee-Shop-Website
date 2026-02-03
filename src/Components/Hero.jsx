@@ -36,14 +36,31 @@ const Hero = () => (
             {/* orange ring */}
             <div className="h-44 w-44 border-20 border-amber-400 absolute z-10 top-10 -right-20 rounded-full"></div>
             {/* XL text area  */}
-            <div className="absolute top-0">
-              <h1 className="text-8xl scale-150 font-bold text-gray-900/50">
+            <div className="absolute top-0 -left-14">
+              <h1 className="text-9xl scale-150 font-bold text-gray-900/40">
                 Blvck Tumbler
               </h1>
             </div>
           </div>
           {/* third div section */}
-          <div>4</div>
+          <div className="">
+            <div className="text-orange-100 ml-14 mt-24 md:mt-0 p-4 space-y-28">
+              <h1 className="hidden text-7xl font-bold leading-tight ml-14">
+                Blvck Tumbler
+              </h1>
+              <div className="relative">
+                <div className="relative z-10 space-y-4 mt-32">
+                  <h1 className="text-2xl">Blvck Tumbler</h1>
+                  <p className="text-sm opacity-55 leading-loose">
+                    Repudiandae aliquid excepturi eaque voluptas labore quam
+                    delecnatus quae itaque! Necessitatibus dolore
+                    quae debitis dolor. Beatae, maxime ipsum?
+                  </p>
+                </div>
+                <div className="absolute top-0 -right-5 h-36 w-64 bg-[#1a1f26]/60"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
