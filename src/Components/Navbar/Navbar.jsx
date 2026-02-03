@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-red-500 text-white absolute top-0 w-full pt-10 z-20">
+    <nav className="text-white absolute top-0 w-full pt-10 z-20">
       <div className="container">
         <div className="flex justify-between items-center">
           {/* Logo section  */}
@@ -11,11 +11,7 @@ const Navbar = () => {
           </h1>
           {/* Hamberger menu section  */}
           <div>
-            <img
-              src="src/images/hamburger.png"
-              className="h-8"
-              alt="Hamburger Menu"
-            />
+            <img src="src/images/hamburger.png" className="h-8" alt="Hamburger Menu" />
           </div>
         </div>
       </div>
