@@ -5,9 +5,13 @@ const Hero = () => (
     <section className="min-h-[750] w-full ">
       <div className="container">
         {/* navbar section */}
+        <nav>
+            
+        </nav>
         {/* hero section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center min-h-[850] w-screen">
           {/* text section */}
+          {/* first section  */}
           <div className="text-orange-100 ml-14 mt-24 md:mt-0 p-4 space-y-28">
             <h1 className="text-7xl font-bold leading-tight ml-14">
               Blvck Tumbler
@@ -27,6 +31,7 @@ const Hero = () => (
             </div>
           </div>
           {/* hero image section */}
+          {/* second section */}
           <div className="relative ">
             <img
               src="src/images/black.png"
@@ -43,7 +48,7 @@ const Hero = () => (
             </div>
           </div>
           {/* third div section */}
-          <div className="">
+          <div className="mt-36 -mt-48v">
             <div className="text-orange-100 ml-14 mt-24 md:mt-0 p-4 space-y-28">
               <h1 className="hidden text-7xl font-bold leading-tight ml-14">
                 Blvck Tumbler
