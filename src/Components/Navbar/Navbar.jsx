@@ -9,12 +9,13 @@ const Navbar = ({ sidebar, setSidebar }) => {
           {/* Logo section  */}
           <h1 className="text-2xl font-semibold mx-10 flex">
             <motion.img
-              initial={{ x: 650, y: 400, scale: 8 }}
+              initial={{ scale: 8, x:650 ,y:380}}
               animate={{ x: 0, y: 0, scale: 1 }}
+              drag
               transition={{ duration: 2, bounce: 0.4, delay: 0.5 }}
               src="src/images/coffee_logo.png"
               alt="Coffee Logo"
-              className="h-8 -my-0.5 mx-5"
+              className="h-8 -my-0.5 mx-5 cursor-pointer"
             />
             <span className="text-amber-400">CODERS </span>CAFE.
           </h1>
