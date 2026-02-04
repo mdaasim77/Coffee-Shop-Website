@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import { motion } from "framer-motion";
 
 const Hero = () => (
   <main id="bgimage">
@@ -12,9 +13,11 @@ const Hero = () => (
           {/* text section */}
           {/* first section  */}
           <div className="text-orange-100 ml-14 mt-0 md:mt-24 p-4 space-y-28">
-            <h1 className="text-7xl font-bold leading-tight ml-14 mt-24">
+            <motion.h1 
+            initial={{opacity: 0, y: 0}}
+            className="text-7xl font-bold leading-tight ml-14 mt-24">
               Blvck Tumbler
-            </h1>
+            </motion.h1>
             <div className="relative">
               <div className="relative z-10 space-y-4">
                 <h1 className="text-2xl">Black Lifestyle Lovers,</h1>
