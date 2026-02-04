@@ -7,7 +7,8 @@ const Navbar = () => {
       <div className="container w-full">
         <div className="flex justify-between items-center w-screen">
           {/* Logo section  */}
-          <h1 className="text-2xl font-semibold mx-10">
+          <h1 className="text-2xl font-semibold mx-10 flex">
+            <img src="src/images/coffee_logo.png" alt="Coffee Logo" className="h-8 -my-0.5 mx-5" />
             <span className="text-amber-400">CODERS </span>CAFE.
           </h1>
           {/* Hamberger menu section  */}

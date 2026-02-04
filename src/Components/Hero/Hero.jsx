@@ -86,7 +86,7 @@ const Hero = () => (
             </div>
           </div>
           {/* third div section */}
-          <div className="mt-36 -mt-48v">
+          <div className="lg:mt-40 -mt-96 ">
             <motion.div
               initial={{ opacity: 0, x: 300 }}
               animate={{ opacity: 1, x: 0 }}
@@ -117,9 +117,13 @@ const Hero = () => (
         </div>
       </div>
       {/* sidebar menu section  */}
-      <div>
-        <div>
-          <div></div>
+      <div className="absolute top-0 right-0 w-36 bg-amber-400/80 z-10 h-full md:h-screen">
+        <div className="h-full w-full flex flex-col justify-center items-center gap-5">
+          <img src="src/images/facebook.png" className="h-8" alt="Facebook" />
+          <div className="bg-white w-0.5 h-14"></div>
+          <img src="src/images/insta.png" className="h-8" alt="Instagram" />
+          <div className="bg-white w-0.5 h-14"></div>
+          <img src="src/images/x.png" className="h-8" alt="Twitter" />
         </div>
       </div>
     </section>
