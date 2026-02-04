@@ -9,7 +9,7 @@ const Navbar = ({ sidebar, setSidebar }) => {
           {/* Logo section  */}
           <h1 className="text-2xl font-semibold mx-10 flex">
             <motion.img
-              initial={{ scale: 8, x:650 ,y:380}}
+              initial={{ scale: 8, x: 650, y: 380 }}
               animate={{ x: 0, y: 0, scale: 1 }}
               drag
               transition={{ duration: 2, bounce: 0.4, delay: 0.5 }}
