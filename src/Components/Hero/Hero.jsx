@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 const Hero = () => (
   <main id="bgimage" className="h-full lg:h-screen">
-    <section className="min-h-[750] w-full ">
+    <section className="relative  min-h-[750] w-full ">
       <div className="container w-full">
         {/* navbar section */}
         <Navbar />
@@ -64,7 +64,7 @@ const Hero = () => (
               }}
               src="src/images/black.png"
               alt="coffee"
-              className="z-40 h-75 lg:h-175 relative"
+              className="z-40 h-75 md:h-175 relative"
             />
             {/* orange ring */}
             <motion.div
@@ -114,6 +114,12 @@ const Hero = () => (
               </div>
             </motion.div>
           </div>
+        </div>
+      </div>
+      {/* sidebar menu section  */}
+      <div>
+        <div>
+          <div></div>
         </div>
       </div>
     </section>
