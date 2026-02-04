@@ -11,7 +11,7 @@ const Navbar = () => {
             <span className="text-amber-400">CODERS </span>CAFE.
           </h1>
           {/* Hamberger menu section  */}
-          <div className="mx-10">
+          <div className="mx-10 cursor-pointer">
             <img src="src/images/hamburger.png" className="h-8" alt="Hamburger Menu" />
           </div>
         </div>

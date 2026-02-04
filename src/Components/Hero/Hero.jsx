@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
+// import { motion } from "motion/react";
+import { motion } from "motion/react";
 
 const Hero = () => (
   <main id="bgimage">
@@ -13,9 +15,12 @@ const Hero = () => (
           {/* text section */}
           {/* first section  */}
           <div className="text-orange-100 ml-14 mt-0 md:mt-24 p-4 space-y-28">
-            <motion.h1 
-            initial={{opacity: 0, y: 0}}
-            className="text-7xl font-bold leading-tight ml-14 mt-24">
+            <motion.h1
+              initial={{ opacity: 0, y: -300 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 3, bounce: 0.5 }}
+              className="text-7xl font-bold leading-tight ml-14 mt-24"
+            >
               Blvck Tumbler
             </motion.h1>
             <div className="relative">
@@ -35,13 +40,21 @@ const Hero = () => (
           {/* hero image section */}
           {/* second section */}
           <div className="relative ">
-            <img
+            <motion.img
+              initial={{ opacity: 0, y: 300 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 3, bounce: 0.5 }}
               src="src/images/black.png"
               alt="coffee"
               className="z-40 h-75 md:h-175 relative"
             />
             {/* orange ring */}
-            <div className="h-44 w-44 border-20 border-amber-400 absolute z-10 top-10 -right-20 rounded-full"></div>
+            <motion.div
+              initial={{ opacity: 0, x: 300 }}
+              animate={{ opacity: 1, x: -50 }}
+              transition={{ type: "spring", bounce: 0.4, duration: 3 }}
+              className="h-44 w-44 border-20 border-amber-400 absolute z-10 top-20 -right-20 rounded-full"
+            ></motion.div>
             {/* XL text area  */}
             <div className="absolute top-0 -left-14">
               <h1 className="text-9xl scale-150 font-bold text-gray-900/40">
