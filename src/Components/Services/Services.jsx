@@ -26,7 +26,7 @@ export default function Services() {
     },
   ];
   return (
-    <div className="h-screen w-full my-16">
+    <div className="h-screen w-full my-16 container mx-auto">
       {/* header section  */}
       <ServiceHeader />
       {/* card section  */}

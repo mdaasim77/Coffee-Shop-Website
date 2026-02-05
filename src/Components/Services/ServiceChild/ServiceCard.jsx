@@ -6,6 +6,7 @@ export default function ServiceCard({ Servicecard }) {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-10">
       {Servicecard.map((card, index) => {
         let initialanimation;
+        let whileview;
 
         if (index === 0) initialanimation = { x: -200, opacity: 0 };
         if (index === 1) initialanimation = { y: 200, opacity: 0 };
@@ -17,7 +18,11 @@ export default function ServiceCard({ Servicecard }) {
             transition={{ duration: 1, type: spring, bounce: 0.2, delay: 0.2 }}
             className="space-y-6 mx-auto  text-center"
           >
-            <img src={card.img} className="h-80 w-80 mx-auto" />
+            <motion.img
+              whileHover={{ scale: 1.2 }}
+              src={card.img}
+              className="h-64 w-64 mx-auto"
+            />
             <h1 className="text-2xl font-bold text-amber-400">{card.title}</h1>
             <p className="text-sm text-gray-400">{card.sub}</p>
           </motion.div>
