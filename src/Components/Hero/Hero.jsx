@@ -122,7 +122,7 @@ export default function Hero() {
         {sidebar && (
           <motion.div
             initial={{ x: "100%" }}
-            whileInView={{ x: 0 }}
+            animate={{ x: 0 }}
             transition={{ ease: "easeInOut" }}
             className="absolute top-0 right-0 w-36 bg-amber-400/80 z-10 h-full md:h-screen"
           >
