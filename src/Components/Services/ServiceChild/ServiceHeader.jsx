@@ -21,6 +21,7 @@ export default function ServiceHeader() {
         beatae, labore eius illo neque necessitatibus veritatis tempora sint
         eveniet vero, cupiditate consequatur enim voluptas!
       </motion.p>
+      
     </div>
   );
 }

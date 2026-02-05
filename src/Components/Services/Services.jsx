@@ -30,7 +30,7 @@ export default function Services() {
       {/* header section  */}
       <ServiceHeader />
       {/* card section  */}
-      <ServiceCard Servicecard={Servicecard} />
+      <ServiceCard Servicecard={Servicecard}/>
     </div>
   );
 }
