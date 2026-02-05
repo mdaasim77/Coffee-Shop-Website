@@ -10,19 +10,19 @@ export default function Services() {
       id: 1,
       img: coffee1,
       title: "Black Coffee",
-      sub: "lorem ipsum dolor sit amet consectetu adeipiscing elit.",
+      sub: "Strong and bold brewed coffee with a rich aroma and pure flavor.",
     },
     {
       id: 2,
       img: coffee3,
-      title: "Hot Coffee",
-      sub: "lamet consectetur adipisicing elit. Quod ducimus.",
+      title: "Cold Coffee",
+      sub: "Smooth and chilled coffee blended with milk for a refreshing taste.",
     },
     {
       id: 3,
       img: cupcoffee,
       title: "Cup Coffee",
-      sub: "veritatis tempora eveniet vero, cupiditate consequatur enim voluptas!.",
+      sub: "Freshly brewed warm coffee with a comforting and smooth flavor.",
     },
   ];
   return (
@@ -30,7 +30,7 @@ export default function Services() {
       {/* header section  */}
       <ServiceHeader />
       {/* card section  */}
-      <ServiceCard Servicecard={Servicecard}/>
+      <ServiceCard Servicecard={Servicecard} />
     </div>
   );
 }

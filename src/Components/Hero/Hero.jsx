@@ -49,7 +49,7 @@ export default function Hero() {
                     opti.
                   </p>
                 </div>
-                <div className="absolute top-0 -left-5 h-56 w-64 bg-gray-500/25"></div>
+                <div className="absolute top-0 -left-5 h-44 w-64 bg-gray-500/25"></div>
               </motion.div>
             </div>
             {/* hero image section */}
