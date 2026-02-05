@@ -4,8 +4,8 @@ import WorldMap from "./WheretoBuyChild/WorldMap";
 
 export default function WhereToBuy() {
   return (
-    <div className="container my-36">
-      <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-8">
+    <div className="container my-auto h-full mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 ">
         {/* Form section */}
         <From />
         {/* World Map section */}

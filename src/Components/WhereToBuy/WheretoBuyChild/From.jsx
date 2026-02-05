@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function From() {
   return (
     <div>
-      From
+      <h1>Buy Our Product from anywhere</h1>
     </div>
-  )
+  );
 }
