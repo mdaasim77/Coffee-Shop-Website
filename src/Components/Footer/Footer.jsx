@@ -2,6 +2,7 @@ import React from "react";
 import CompanyDetails from "./FooterChild/CompanyDetails";
 import Links from "./FooterChild/Links";
 import SocialLinks from "./FooterChild/SocialLinks";
+import CopyRight from "./FooterChild/CopyRight";
 
 export default function Footer() {
   return (
@@ -14,6 +15,8 @@ export default function Footer() {
           <Links />
           {/* social links */}
           <SocialLinks />
+          {/* copy right section  */}
+          <CopyRight/>
         </div>
       </div>
     </div>
