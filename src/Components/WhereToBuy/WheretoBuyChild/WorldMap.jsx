@@ -9,8 +9,8 @@ export default function WorldMap() {
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}
         src={map}
-        className="w-full max-w-3xl mx-auto"
-        alt=""
+        className="w-full max-w-3xl mx-auto h-9/12"
+        alt="Map"
       />
     </div>
   );

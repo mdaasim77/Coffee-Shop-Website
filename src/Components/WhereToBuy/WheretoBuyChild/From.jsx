@@ -8,7 +8,7 @@ export default function From() {
         initial={{ y: 200, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", bounce: 0.2, delay: 0.2, duration: 1 }}
-        className="text-3xl font-bold"
+        className="text-3xl font-bold "
       >
         Buy Our Product from anywhere
       </motion.h1>
