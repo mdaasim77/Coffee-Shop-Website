@@ -7,7 +7,7 @@ import Footer from "./Components/Footer/Footer";
 
 const mergeComponent = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       <Hero />
       <Services />
       <WhereToBuy />

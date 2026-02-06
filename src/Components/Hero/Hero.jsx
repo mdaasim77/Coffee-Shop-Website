@@ -5,9 +5,9 @@ import { motion } from "motion/react";
 export default function Hero() {
   const [sidebar, setSidebar] = useState(false);
   return (
-    <main id="bgimage" className="h-full lg:h-screen">
-      <section className="relative  min-h-[750] w-full ">
-        <div className="container w-full">
+    <main id="bgimage" className="h-full lg:h-screen w-full ">
+      <section className="relative min-h-187.5 ">
+        <div className="container">
           {/* navbar section */}
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
           {/* hero section */}
