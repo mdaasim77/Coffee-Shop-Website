@@ -7,15 +7,16 @@ export default function BannerImg() {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    height: "700px",
+    height: "600px",
     width: "100%",
   };
   return (
-    <div>
-      <div className="flex items-end md:justify-end md:items-center mx-auto" style={BannerImg}>
-        {/* heading text  */}
-        <Heading />
-      </div>
+    <div
+      className="flex items-end md:justify-end md:items-center mx-auto rounded-2xl"
+      style={BannerImg}
+    >
+      {/* heading text  */}
+      <Heading />
     </div>
   );
 }
