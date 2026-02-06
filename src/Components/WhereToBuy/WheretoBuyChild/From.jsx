@@ -2,7 +2,7 @@ import React from "react";
 
 export default function From() {
   return (
-    <div className="">
+    <div className="p-5">
       <h1 className="text-3xl font-bold">Buy Our Product from anywhere</h1>
 
       <div className="flex items-center gap-4 my-2.5">
