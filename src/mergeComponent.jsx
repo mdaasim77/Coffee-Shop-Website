@@ -8,11 +8,11 @@ import Footer from "./Components/Footer/Footer";
 const mergeComponent = () => {
   return (
     <div className="">
-      <Hero />
+      {/* <Hero /> */}
       <Services />
       <WhereToBuy />
       <Banner />
-      <Footer/>
+      {/* <Footer /> */}
     </div>
   );
 };
