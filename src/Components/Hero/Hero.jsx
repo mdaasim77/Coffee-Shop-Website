@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./Navbar";
 import { motion } from "motion/react";
 
 export default function Hero() {
