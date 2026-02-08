@@ -5,8 +5,8 @@
 // export default function Hero() {
 //   const [sidebar, setSidebar] = useState(false);
 //   return (
-//     <main id="" className="bgimage ">
-//       <section className="relative  h-screen  w-full">
+//     <main className="bgimage container">
+//       <section className="relative  h-full  w-full">
 //         <div className="container w-full">
 //           {/* navbar section */}
 //           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
