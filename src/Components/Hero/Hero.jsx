@@ -5,7 +5,7 @@
 // export default function Hero() {
 //   const [sidebar, setSidebar] = useState(false);
 //   return (
-//     <main className="bgimage container">
+//     <main className="bgimage ">
 //       <section className="relative  h-full  w-full">
 //         <div className="container w-full">
 //           {/* navbar section */}
@@ -156,7 +156,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="  bgimage mx-auto">
+    <div className="  bgimage text-white">
       <div className="h-full w-full ">
         <h1>Heading</h1>
         <p>
@@ -219,6 +219,52 @@ export default function Hero() {
           voluptates quo quia corporis vero suscipit adipisci tenetur modi
           laboriosam?
         </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+          tenetur enim corrupti? Laborum adipisci, vel asperiores atque
+          explicabo obcaecati reprehenderit perferendis doloremque recusandae,
+          in minus enim maiores expedita ullam repellendus magni nam. Hic
+          voluptates aspernatur mollitia ipsam, dolorem, quaerat exercitationem
+          laboriosam delectus ullam minus perspiciatis inventore eveniet illum
+          reprehenderit. Voluptas hic necessitatibus non dicta eum ea quo
+          assumenda fugiat saepe quasi ipsam esse aliquid maxime quaerat ipsa
+          laudantium, veniam voluptatibus earum. Distinctio blanditiis tempore
+          assumenda provident, eos mollitia quibusdam totam quia adipisci
+          quaerat maxime! Sequi itaque fugit, velit consequatur reiciendis
+          voluptates quo quia corporis vero suscipit adipisci tenetur modi
+          laboriosam?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+          tenetur enim corrupti? Laborum adipisci, vel asperiores atque
+          explicabo obcaecati reprehenderit perferendis doloremque recusandae,
+          in minus enim maiores expedita ullam repellendus magni nam. Hic
+          voluptates aspernatur mollitia ipsam, dolorem, quaerat exercitationem
+          laboriosam delectus ullam minus perspiciatis inventore eveniet illum
+          reprehenderit. Voluptas hic necessitatibus non dicta eum ea quo
+          assumenda fugiat saepe quasi ipsam esse aliquid maxime quaerat ipsa
+          laudantium, veniam voluptatibus earum. Distinctio blanditiis tempore
+          assumenda provident, eos mollitia quibusdam totam quia adipisci
+          quaerat maxime! Sequi itaque fugit, velit consequatur reiciendis
+          voluptates quo quia corporis vero suscipit adipisci tenetur modi
+          laboriosam?
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
+          tenetur enim corrupti? Laborum adipisci, vel asperiores atque
+          explicabo obcaecati reprehenderit perferendis doloremque recusandae,
+          in minus enim maiores expedita ullam repellendus magni nam. Hic
+          voluptates aspernatur mollitia ipsam, dolorem, quaerat exercitationem
+          laboriosam delectus ullam minus perspiciatis inventore eveniet illum
+          reprehenderit. Voluptas hic necessitatibus non dicta eum ea quo
+          assumenda fugiat saepe quasi ipsam esse aliquid maxime quaerat ipsa
+          laudantium, veniam voluptatibus earum. Distinctio blanditiis tempore
+          assumenda provident, eos mollitia quibusdam totam quia adipisci
+          quaerat maxime! Sequi itaque fugit, velit consequatur reiciendis
+          voluptates quo quia corporis vero suscipit adipisci tenetur modi
+          laboriosam?
+        </p>
+        
       </div>
     </div>
   );
