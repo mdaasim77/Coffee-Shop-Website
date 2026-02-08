@@ -22,7 +22,7 @@ export default function Hero() {
                   type: "spring",
                   duration: 3,
                   bounce: 0.2,
-                  delay: 0.5,
+                  delay: 0.6,
                 }}
                 className="text-7xl font-bold leading-tight ml-14 mt-24"
               >
