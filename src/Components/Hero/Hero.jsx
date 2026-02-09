@@ -1,12 +1,12 @@
 import { useState } from "react";
 import Navbar from "./Navbar";
-import { motion } from "motion/react";
+import { motion, AnimatePresence } from "motion/react";
 
 export default function Hero() {
   const [sidebar, setSidebar] = useState(false);
   return (
     <main className="bgimage">
-      <section className="relative  h-screen  w-full">
+      <section className="relative  h-full lg:h-screen  w-full">
         <div className="container w-full">
           {/* navbar section */}
           <Navbar sidebar={sidebar} setSidebar={setSidebar} />
@@ -89,7 +89,7 @@ export default function Hero() {
               </div>
             </div>
             {/* third div section */}
-            <div className="lg:mt-40 ">
+            <div className="-mt-20 p-2  ">
               <motion.div
                 initial={{ opacity: 0, y: 300 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -99,7 +99,7 @@ export default function Hero() {
                   bounce: 0.2,
                   delay: 0.5,
                 }}
-                className="text-orange-100 ml-14 mt-24 md:mt-0 p-4 space-y-28"
+                className="text-orange-100 ml-14 mt-0 p-1 md:mt-24 md:--4 space-y-28"
               >
                 <h1 className="hidden text-7xl font-bold leading-tight ml-14">
                   Blvck Tumbler
@@ -120,34 +120,37 @@ export default function Hero() {
           </div>
         </div>
         {/* sidebar menu section  */}
-        {sidebar && (
-          <motion.div
-            initial={{ y: "100%" }}
-            animate={{ y: 0 }}
-            transition={{ ease: "easeInOut", type: "tween", duration: 0.3 }}
-            className="absolute top-0 right-0 w-36 bg-amber-400/80 z-10 h-full md:h-screen"
-          >
-            <div className="h-full w-full flex flex-col justify-center items-center gap-5">
-              <img
-                src="src/images/facebook.png"
-                className="h-8 cursor-pointer border border-white rounded-full p-1"
-                alt="Facebook"
-              />
-              <div className="bg-white w-0.5 h-14"></div>
-              <img
-                src="src/images/insta.png"
-                className="h-8 cursor-pointer border border-white rounded-full p-1"
-                alt="Instagram"
-              />
-              <div className="bg-white w-0.5 h-14"></div>
-              <img
-                src="src/images/x.png"
-                className="h-8 cursor-pointer border border-white rounded-full p-1"
-                alt="Twitter"
-              />
-            </div>
-          </motion.div>
-        )}
+        <AnimatePresence>
+          {sidebar && (
+            <motion.div
+              initial={{ x: "100%" }}
+              animate={{ x: 0 }}
+              exit={{ x: "100%" }}
+              transition={{ ease: "easeInOut", type: "tween", duration: 0.3 }}
+              className="absolute top-0 right-0 w-36 bg-amber-400/80 z-10 h-full md:h-screen"
+            >
+              <div className="h-full w-full flex flex-col justify-center items-center gap-5">
+                <img
+                  src="src/images/facebook.png"
+                  className="h-8 cursor-pointer border border-white rounded-full p-1"
+                  alt="Facebook"
+                />
+                <div className="bg-white w-0.5 h-14"></div>
+                <img
+                  src="src/images/insta.png"
+                  className="h-8 cursor-pointer border border-white rounded-full p-1"
+                  alt="Instagram"
+                />
+                <div className="bg-white w-0.5 h-14"></div>
+                <img
+                  src="src/images/x.png"
+                  className="h-8 cursor-pointer border border-white rounded-full p-1"
+                  alt="Twitter"
+                />
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </section>
     </main>
   );
