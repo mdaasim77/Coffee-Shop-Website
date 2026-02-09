@@ -3,9 +3,9 @@ import MergeComponent from './mergeComponent'
 
 const App = () => {
   return (
-    <div className=''>
+    <>
       <MergeComponent />
-    </div>
+    </>
   )
 }
 
