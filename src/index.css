@@ -4,3 +4,7 @@
 @tailwind components;
 @tailwind utilities; 
 
+.bgimage{
+    /* background-image: url("public/bg-slate.png"); */
+    /* width: 100vw; */
+}

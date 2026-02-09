@@ -1,11 +1,11 @@
-// import { useState } from "react";
-// import Navbar from "./Navbar";
-// import { motion } from "motion/react";
+import { useState } from "react";
+import Navbar from "./Navbar";
+import { motion } from "motion/react";
 
 // export default function Hero() {
 //   const [sidebar, setSidebar] = useState(false);
 //   return (
-//     <main className="bgimage ">
+//     <main className="bgimage">
 //       <section className="relative  h-full  w-full">
 //         <div className="container w-full">
 //           {/* navbar section */}
@@ -154,11 +154,10 @@
 
 // no changes needed work tomorrow
 
-import React from "react";
 
 export default function Hero() {
   return (
-    <div className="  bgimage text-white">
+    <div className="  bgimage text-black">
       <div className="h-full w-full ">
         <h1>Heading</h1>
         <p className="bg-red-500"> 
