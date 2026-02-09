@@ -66,7 +66,7 @@ export default function Hero() {
                 }}
                 src="src/images/black.png"
                 alt="coffee"
-                className="z-40 h-72 md:h-87.5 relative"
+                className="z-40 h-[350px] md:h-[700px] relative"
               />
               {/* orange ring */}
               <motion.div
@@ -78,7 +78,8 @@ export default function Hero() {
                   duration: 3,
                   delay: 0.8,
                 }}
-                className="h-44 w-44 border-20 border-amber-400 absolute z-10 top-20 right-0 translate-x-1/2 rounded-full"
+                className="h-44 w-44 border-[14px] border-amber-400 absolute 
+                z-10 top-20 -right-20 translate-x-1/2 rounded-full"
               ></motion.div>
               {/* XL text area  */}
               <div className="absolute top-0 -left-14">

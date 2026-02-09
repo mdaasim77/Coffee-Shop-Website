@@ -12,7 +12,7 @@ const Navbar = ({ sidebar, setSidebar }) => {
               initial={{ scale: 8, x: 650, y: 380 }}
               animate={{ x: 0, y: 0, scale: 1 }}
               drag
-              transition={{ duration: 2, bounce: 0.4, delay: 0.5 }}
+              transition={{ duration: 1, bounce: 0.4, delay: 0.5 }}
               src="src/images/coffee_logo.png"
               alt="Coffee Logo"
               className="h-8 -my-0.5 mx-5 cursor-pointer"
