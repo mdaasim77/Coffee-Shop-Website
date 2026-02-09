@@ -21,7 +21,7 @@ export default function ServiceCard({ Servicecard }) {
             <motion.img
               whileHover={{ scale: 1.2 }}
               src={card.img}
-              className="h-64 w-64 mx-auto"
+              className=" w-64 mx-auto"
             />
             <h1 className="text-2xl font-bold text-amber-400">{card.title}</h1>
             <p className="text-sm text-gray-400">{card.sub}</p>

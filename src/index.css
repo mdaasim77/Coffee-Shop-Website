@@ -1,20 +1,6 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities; 
 
-.bgimage {
-  /* background-image: url("public/bg-slate.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 900px;
-  width: 100%; */
-
-  /* min-height: 500px; */
-}
-/* html,
-body {
-  overflow-x: hidden;
-} */

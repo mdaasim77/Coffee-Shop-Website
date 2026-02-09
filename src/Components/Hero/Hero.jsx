@@ -161,7 +161,7 @@ export default function Hero() {
     <div className="  bgimage text-white">
       <div className="h-full w-full ">
         <h1>Heading</h1>
-        <p>
+        <p className="bg-red-500"> 
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia
           tenetur enim corrupti? Laborum adipisci, vel asperiores atque
           explicabo obcaecati reprehenderit perferendis doloremque recusandae,
